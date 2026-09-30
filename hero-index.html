@@ -23,16 +23,16 @@
 html,body{height:100%;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#e4e6eb;line-height:1.6;min-height:100vh;background:radial-gradient(ellipse at 30% 50%,rgba(0,210,255,.25),transparent 60%),radial-gradient(ellipse at 70% 50%,rgba(255,107,53,.2),transparent 60%),#0a0a0f}
-.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden;padding:40px 24px}
-.hero-content{position:relative;z-index:1}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;text-align:left;position:relative;overflow:hidden;padding:40px 24px}
+.hero-content{position:relative;z-index:1;max-width:700px}
 .headshot{width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid rgba(0,210,255,.3);margin-bottom:20px}
 .tagline{font-size:13px;letter-spacing:.25em;text-transform:uppercase;color:#8b949e;margin-bottom:12px}
 .hero h1{font-size:clamp(44px,8vw,80px);font-weight:900;line-height:1.05;margin-bottom:24px;letter-spacing:-.02em}
 .hero h1 .line1{display:block;color:#f0f6fc}
 .hero h1 .line2{display:block;background:linear-gradient(90deg,#00d2ff,#ff6b35);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.hero p.bio{max-width:640px;margin:0 auto 32px;font-size:15px;color:#c9d1d9;line-height:1.7}
+.hero p.bio{max-width:640px;margin:0 0 32px;font-size:15px;color:#c9d1d9;line-height:1.7}
 .hero p.bio strong{color:#f0f6fc}
-.hero-buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.hero-buttons{display:flex;gap:12px;justify-content:flex-start;flex-wrap:wrap}
 .hero-btn{display:inline-block;padding:10px 24px;border-radius:8px;font-size:13px;font-weight:600;text-decoration:none;transition:all .25s ease;letter-spacing:.02em}
 .hero-btn.tech{background:#00d2ff;color:#0a0a0f}
 .hero-btn.tech:hover{background:#33ddff;transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,210,255,.3)}
