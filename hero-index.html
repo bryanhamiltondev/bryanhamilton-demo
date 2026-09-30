@@ -48,10 +48,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Ar
 .card.tech-card::before{background:#00d2ff}
 .card.retail-card::before{background:#ff6b35}
 .card:hover{border-color:#30304a}
-.tech-card{transform:skewX(-1.5deg)}
-.tech-card:hover{transform:skewX(-1.5deg) rotate(1.5deg)}
-.retail-card{transform:skewX(1.5deg)}
-.retail-card:hover{transform:skewX(1.5deg) rotate(-1.5deg)}
+.tech-card{transform:perspective(800px) rotateY(-3deg)}
+.tech-card:hover{transform:perspective(800px) rotateY(0deg) translateY(-4px)}
+.retail-card{transform:perspective(800px) rotateY(3deg)}
+.retail-card:hover{transform:perspective(800px) rotateY(0deg) translateY(-4px)}
 .card-number{font-size:11px;letter-spacing:.2em;color:#8b949e;margin-bottom:8px}
 .card h2{font-size:20px;font-weight:700;margin-bottom:12px}
 .tech-card h2{color:#00d2ff}
